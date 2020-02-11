@@ -1,0 +1,116 @@
+.about-section {
+    background: url(../../assets/HomeHeadingBackground.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 8rem;
+}
+
+.about-wrapper {
+    background-color: rgba(85, 40, 3, 0.931);
+    height: 80vh;
+    width: 100%;
+    clip-path: polygon(0 0%, 100% 28%, 100% 100%, 0% 100%);
+}
+
+.clip-wrapper {
+    display: flex; 
+    height: 80rem;
+    flex: 1 1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image-wrapper {
+    width: 25rem;
+}
+
+.about-image {
+    border-radius: 3rem;
+    border: .2rem solid rgba(129, 64, 11, 0.911);
+    width: 100%;
+    box-shadow: .1rem .1rem .5rem black;
+}
+
+.about-text-part {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    flex-wrap: wrap;
+    width: 30rem;
+    margin: 10rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text-part h1 {
+    font-family: 4rem;
+    text-decoration: underline;
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+
+.about-text-part p {
+    font-size: 1.3rem;
+    font-family: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    .about-image-wrapper {
+        width: 18rem;
+    }
+
+    .about-text-part {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1;
+        flex-wrap: wrap;
+        width: 25rem;
+        margin: 3rem;
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-text-part h1 {
+        font-family: 3rem;
+        letter-spacing: 0rem;
+    }
+    
+    .about-text-part p {
+        font-size: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+@media(max-width: 550px) {
+    
+    .about-image-wrapper {
+        width: 15rem;
+    }
+
+    .about-text-part {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1;
+        flex-wrap: wrap;
+        width: 27rem;
+        margin: 2rem;
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text-part p {
+        font-size: .7rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 500;
+        text-align: center;
+    }
+}

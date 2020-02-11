@@ -1,0 +1,257 @@
+.testimonials {
+    background: linear-gradient(to top, rgb(105, 47, 8), rgba(19, 78, 5, 0.897));
+    padding-bottom: 10rem;
+    margin-left: 8rem;
+}
+
+.common-header {
+    padding: 4rem;
+    text-align: center;
+    color: #b85d1c;
+}
+
+.common-heading {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+}
+
+.small-underline {
+    width: 9rem;
+    height: .1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #b85d1c;
+}
+
+.big-underline {
+    width: 20rem;
+    height: .1rem;
+    margin: auto;
+    background-color: #b85d1c;
+}
+
+.text-testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-testimonials p {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    width: 80rem;
+    font-family: fantasy;
+    letter-spacing: .2rem;
+}
+
+.customers {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    justify-content: space-around;
+}
+
+.customer-figure {
+    height: 10rem;
+    width: 40rem;
+    background-color: rgba(32, 27, 27, 0.664);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1;
+    box-shadow: .1rem .1rem .5rem black;
+    border-radius: .5rem;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.customer-image {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 2rem;
+    box-shadow: .1rem .1rem .5rem black;
+}
+
+.customer-text-part {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-left: .5rem;
+    width: 60rem;
+}
+
+.customer-name {
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+.customer-sub-heading {
+    color: #b85d1c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.customer-text {
+    font-weight: bold;
+    color: rgb(187, 175, 175);
+    font-style: italic;
+}
+
+
+@media(max-width: 1200px) {
+    .common-heading {
+        font-size: 2.6rem;
+        letter-spacing: .1rem;
+    }
+    
+    .small-underline {
+        width: 7rem;
+        height: .1rem;
+    }
+    
+    .big-underline {
+        width: 17rem;
+    }
+    
+    
+    .text-testimonials p {
+        font-size: .8rem;
+        width: 60rem;
+        letter-spacing: .1rem;
+    }
+    
+    .customer-figure {
+        height: 10rem;
+        width: 30rem;
+    }
+    
+    .customer-image {
+        width: 8rem;
+        height: 7rem;
+        border-radius: .3rem;
+    }
+    
+    .customer-text-part {
+        margin-left: 0rem;
+        text-align: none;
+        width: 70rem;
+    }
+    
+    
+}
+
+@media(max-width: 900px) {
+    .common-heading {
+        font-size: 1.5rem;
+        letter-spacing: 0rem;
+    }
+    
+    .small-underline {
+        width: 5rem;
+        height: .1rem;
+    }
+    
+    .big-underline {
+        width: 14rem;
+    }
+    
+    
+    .text-testimonials p {
+        font-size: .6rem;
+        width: 60rem;
+        letter-spacing: 0rem;
+    }
+    
+    .customer-figure {
+        height: 5rem;
+        width: 23rem;
+    }
+    
+    .customer-image {
+        width: 4rem;
+        height: 4rem;
+        border-radius: .1rem;
+    }
+
+    .customer-text-part h1, h3 {
+        font-size: .8rem;
+    }
+    
+    .customer-text-part p {
+        font-size: .5rem;
+    }
+}
+
+
+@media(max-width: 730px) {
+    .common-heading {
+        font-size: 1.1rem;
+    }
+    
+    .small-underline {
+        width: 4rem;
+        height: .1rem;
+    }
+    
+    .big-underline {
+        width: 10rem;
+    }
+    
+    
+    .text-testimonials p {
+        font-size: .3rem;
+        width: 60rem;
+        letter-spacing: 0rem;
+    }
+    
+    .customer-figure {
+        height: 3rem;
+        width: 15rem;
+    }
+    
+    .customer-image {
+        width: 2rem;
+        height: 2rem;
+        border-radius: .1rem;
+    }
+
+    .customer-text-part h1, h3 {
+        font-size: .5rem;
+    }
+    
+    .customer-text-part p {
+        font-size: .2rem;
+    }
+}
+
+@media(max-width: 600px) {
+    
+    .text-testimonials p {
+        width: 25rem;
+    }
+
+    .customer-figure {
+        height: 3rem;
+        width: 6rem;
+    }
+    
+    .customer-image {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: .1rem;
+    }
+
+    .customer-text-part h1, h3 {
+        font-size: .25rem;
+    }
+    
+    .customer-text-part p {
+        font-size: .03rem;
+        width: 7.5rem;
+    }
+}
+
