@@ -24,3 +24,8 @@ npm install
 
 This project is licensed under the MIT License 
 
+# What I Learned
+- Dug deeper into CSS
+- Worked with Flexbox
+- Responsive Design
+
